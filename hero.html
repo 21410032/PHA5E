@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlay Text with Images</title>
+    <link rel="stylesheet" href="./hero.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="./images/logo.svg" alt="">
+        </div>
+        <div class="navbar-links">
+            <a href="#">Our vision</a>
+            <a href="#">Our team</a>
+            <a href="#">Our projects</a>
+            <a href="#">Contact us</a>
+            <a href="#">FR/EN
+                <div class="underline"></div>
+            </a>
+        </div>
+        
+    </nav>
+
+    <div class="container">
+        <div class="thumbnails-container">
+            <div class="thumbnails" id="thumbnail1">
+                <a href="#" class="thumbnails__wrapper">
+                    <div class="moveable-content">
+                        <img class="thumbnails__img" src="./images/bigger-science_thumbnail-2.png" alt="Thumbnail 1">
+                        <div class="thumbnails__text">
+                            <h2>Bigger Science</h2>
+                            <span>Immersive Experience / WebGL / Gaming</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="thumbnails" id="thumbnail2">
+                <a href="#" class="thumbnails__wrapper">
+                    <div class="moveable-content">
+                        <img class="thumbnails__img" src="./images/map-interactive.png" alt="Thumbnail 2">
+                        <div class="thumbnails__text">
+                            <h2>Mucem</h2>
+                            <span>Experiential Website</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="thumbnails" id="thumbnail3">
+                <a href="#" class="thumbnails__wrapper">
+                    <div class="moveable-content">
+                        <img class="thumbnails__img" src="./images/Capture daÌeIÌcran 2024-01-04 aIÌ 16.41.06-2.png" alt="Thumbnail 3">
+                        <div class="thumbnails__text">
+                            <h2>Unganisha</h2>
+                            <span>Experiential Website / WebGL / 3D</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="thumbnails" id="thumbnail4">
+                <a href="#" class="thumbnails__wrapper">
+                    <div class="moveable-content">
+                        <img class="thumbnails__img" src="./images/Capture-dâeÌcran-2023-04-03-aÌ-10.59.43_2-2.jpg" alt="Thumbnail 4">
+                        <div class="thumbnails__text">
+                            <h2>Olive Tree</h2>
+                            <span>Interactive Installation / Real Time</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="text-overlay" id="textOverlay">
+            <span >Imagining</span><br>
+            <span>Unique</span><br>
+            <span>Concepts</span><br>
+            <span>and Digital</span><br>
+            <span>Experiences</span>
+        </div>
+    </div>
+
+   <script src="./hero.js"></script>
+</html>
